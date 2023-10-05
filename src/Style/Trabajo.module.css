@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.workSection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+  
+.workItem {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 100%; /* Ajusta el ancho según tu diseño */
+}
+  
+.workItem img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+  
+.workItem:hover img {
+    transform: scale(1.05);
+}
+  
+.caption {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+  
+.textWhite {
+    color: #fff;
+}
+  
+.textCenter {
+    text-align: center;
+}
+  
+.font30 {
+    font-size: 30px;
+    line-height: 1.2;
+}
+  
+.title {
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+  
+.textUppercase {
+    text-transform: uppercase;
+}
+  
+
+.textoGenerales {
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    font-size: 50px;
+    margin-bottom: 55px;
+    line-height: 1;
+    text-align: center;
+}
